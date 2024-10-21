@@ -1,3 +1,12 @@
-export function Square({ value }: {value: string}) {
-        return <button className="square">{ value }</button>
+
+
+export function Square({value, onSquareClick}) {
+    return (
+      <button 
+        className="square" 
+        onClick={onSquareClick}
+      >
+        {value}
+      </button>
+    );
 }
