@@ -1,4 +1,3 @@
-export function Square() {
-    return <button className="square">X</button>;
-  }
-  
+export function Square({ value }: {value: string}) {
+        return <button className="square">{ value }</button>
+}

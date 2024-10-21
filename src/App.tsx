@@ -1,8 +1,8 @@
-import { Square } from "./components/square";
+import { Board } from "./components/board";
 
 
 export function App() {
-  return <Square />
+  return <Board />
 
 
 }
