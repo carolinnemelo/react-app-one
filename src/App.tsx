@@ -1,10 +1,5 @@
-import { Board } from "./components/board";
-
+import { Game } from "./components/game";
 
 export function App() {
-  return <Board />
-
-
+  return <Game />;
 }
-
-
